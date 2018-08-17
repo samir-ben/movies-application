@@ -1,0 +1,40 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+ 
+/* Réglages généraux */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+li{
+    list-style:none;
+}
+li:hover{
+    background-color: #E0E0E0
+}
+
+/* Réglages particuliers */
+.title-list-item{
+    padding-top: 40px;
+    text-align: center;
+}
+nav{
+    background-color: #fff !important;
+    border-bottom: 1px solid #6be59c;
+}
+.footer {
+    padding: 0 !important;
+    margin: 0 !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer a{
+    text-decoration:none; 
+    color:#6be59c;
+    font-weight: bold;
+
+}
+.credits{
+    font-size: 12px;
+}
